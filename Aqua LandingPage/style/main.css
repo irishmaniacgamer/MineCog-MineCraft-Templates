@@ -1,0 +1,250 @@
+body {
+    background-image: url("../images/wallpaper.png");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: dimgray;
+}
+
+a:hover {
+    color: red;
+}
+
+.nav li a {
+    color: #00040a;
+}
+
+.nav li a:hover {
+    color: orange;
+}
+
+.title {
+    margin-top: 15%;
+    color: #00040a;
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+}
+
+.title h1 {
+    font-size: 4em;
+}
+
+.title hr {
+    width: 25%;
+}
+
+.logo {
+    max-width: 500px;
+    max-height: 150px;
+    display: inline-block;
+}
+
+.block {
+    padding: 5px 30px 5px 30px;
+    margin: 5px 0px 5px 0px;
+}
+
+.block-bg {
+    background-color: lightblue;
+}
+
+.spacer {
+    width: 100%;
+    height: 10px;
+    position: fixed;
+    display:block;
+}
+
+.sidebar {
+    text-align: left;
+    float: right;
+    height: 100%;
+}
+
+
+
+.bottom {
+    float: bottom;
+    margin-bottom: 0px;
+}
+
+.blog {
+    text-align: left;
+    float: left;
+}
+
+
+
+
+
+.blog .image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.blog .blog-item {
+    float: left;
+    text-align: left;
+}
+
+.socialmedia h4 {
+    text-transform: uppercase;
+}
+
+.oneline li {
+  display:inline;
+}
+
+.social {
+    padding: 3px 3px 3px 3px;
+    color: blue;
+}
+
+.social:hover {
+    color: red;
+}
+
+.copyright-love {
+    color: red;
+}
+
+.text {
+    text-align: left;
+    color: dimgray;
+
+}
+
+.image-small {
+    max-width: 25%;
+    max-height: 25%;
+}
+
+.blog-actions {
+    padding: 0px 10px 0px 10px;
+}
+
+.block-single {
+    margin: auto;
+    margin-top: 15%;
+}
+
+.animated {
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -ms-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+
+
+@-webkit-keyframes bounceInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translateY(30px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+  }
+}
+@-moz-keyframes bounceInDown {
+  0% {
+    opacity: 0;
+    -moz-transform: translateY(-2000px);
+  }
+
+  60% {
+    opacity: 1;
+    -moz-transform: translateY(30px);
+  }
+
+  80% {
+    -moz-transform: translateY(-10px);
+  }
+
+  100% {
+    -moz-transform: translateY(0);
+  }
+}
+@-o-keyframes bounceInDown {
+  0% {
+    opacity: 0;
+    -o-transform: translateY(-2000px);
+  }
+
+  60% {
+    opacity: 1;
+    -o-transform: translateY(30px);
+  }
+
+  80% {
+    -o-transform: translateY(-10px);
+  }
+
+  100% {
+    -o-transform: translateY(0);
+  }
+}
+@keyframes bounceInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-2000px);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translateY(30px);
+  }
+
+  80% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+.bounceInDown {
+  -webkit-animation-name: bounceInDown;
+  -moz-animation-name: bounceInDown;
+  -o-animation-name: bounceInDown;
+  animation-name: bounceInDown;
+}
+#myDIV {
+    width: 390px;
+    height: 200px;
+    border: 15px solid green;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    50% {border-bottom: 15px solid lightgreen;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    50% {border-bottom: 15px solid lightgreen;}
+}
